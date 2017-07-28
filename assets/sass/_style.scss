@@ -1,5 +1,9 @@
 body{
 	background-color: white;
+	font-family: 'Fredoka One', cursive;
+}
+.btn{
+	border-radius: 4px;
 }
 .navbar-fixed{
 	position: absolute;
@@ -36,6 +40,9 @@ nav ul li a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	p{
+		font-family: 'Raleway', sans-serif;
+	}
 }
 .info{
 	margin: 10vh 10% 0;
@@ -50,6 +57,7 @@ nav ul li a {
 	}
 	.parrafo{
 		padding: 10px 15px 10px 0;
+		font-family: 'Raleway', sans-serif;
 	}
 	.btn{
 		margin: 20px 0 10px 0;
@@ -58,6 +66,22 @@ nav ul li a {
 .shape{
 	-webkit-clip-path: polygon(0 0, 100% 0, 72% 100%, 0% 100%);
 	clip-path: polygon(0 0, 100% 0, 72% 100%, 0% 100%);
+}
+.design{
+	margin: 10vh 10% 0;
+	padding-bottom: 0;
+	.titulo{
+		color: #16a086; /*verde*/
+		padding: 20px 0; 
+	}
+	.parrafo{
+		padding: 10px 15px 10px 0;
+		font-family: 'Raleway', sans-serif;
+	}
+	.btn{
+		margin: 20px 0 10px 0;
+	}
+	
 }
 @media screen  and (max-width: 600px) {
 	.info{
@@ -68,4 +92,5 @@ nav ul li a {
 
 footer{
 	margin: 0 10%;
+	font-family: 'Raleway', sans-serif;
 }

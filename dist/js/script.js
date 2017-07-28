@@ -20267,7 +20267,5 @@ $(document).ready(function(){
           $('.nav-wrapper ul li a').css('color', 'white');
        }
    });
-
 	$(".button-collapse").sideNav();
-
 });
