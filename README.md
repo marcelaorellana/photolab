@@ -1,4 +1,4 @@
-# photolab
+# PHOTOLAB
 
 ### Requerimientos Técnicos
 
